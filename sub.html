@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuldam</title>
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sub.css">
+
+    <link rel="icon" href="images/favicon.png">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+                <div id="login">
+                    <div class="inner">
+                        <a href="index.html">로그인</a>
+                        <a href="index.html">회원가입</a>
+                    </div>
+                </div>
+            <div class="inner">
+                <h1><a href="index.html"><img src="images/logo1.jpg"></a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">널담추천</a></li>
+                    <li><a href="#">전체제품</a></li>
+                    <li><a href="#">브랜드</a></li>
+                    <li><a href="#">콘텐츠</a></li>
+                    <li><a href="#">인사이드</a></li>
+                </ul>
+                <div class="depth"> <!--배경을 넣을 영역-->
+                    <div class="inner"><!--하위 메뉴 넓이-->
+                        <ul>
+                            <li><a href="#">널담추천</a></li>
+                            <li><a href="#">베스트</a></li>
+                            <li><a href="#">특가혜택</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">선물하기</a></li>
+                            <li><a href="#">비건</a></li>
+                            <li><a href="#">락토오보</a></li>
+                            <li><a href="#">디저트/빵</a></li>
+                            <li><a href="#">스낵/음료</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">널담 스토리</a></li>
+                            <li><a href="#">널담 레터</a></li>
+                            <li><a href="#">널 담은 공간</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">콘텐츠</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">탄소 중립 실천</a></li>
+                            <li><a href="#">환경을 위한 포장재</a></li>
+                            <li><a href="#">푸드 업사이클링</a></li>
+                            <li><a href="#">기부 활동</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="inner">
+                <!-- <div id="location">
+                    <a href="index.html">HOME</a>
+                    <a href="#">브랜드</a>
+                    <a href="#">널담레터</a>
+                </div> -->
+                    <aside>
+                    <h6>브랜드</h6>
+                        <ul id="lnb">
+                            <li><a href="#">널담 스토리</a></li>
+                            <li class="selected"><a href="#">널담 레터</a></li>
+                            <li><a href="#">널 담은 공간</a></li>
+                        </ul>
+                    </aside>
+                    <div id="right1">
+                        <section id="sec1">
+                            <h3>Better Letter</h3>
+                            <h4>더 나은 세상을 전하는 베러레터 구독하기</h4>
+                            <img src="images/letter.png" alt="">
+                            <!-- <p>널담이 더 많은 분들과 소통하기 위해 베러레터(Better Letter)를 시작합니다-!</p> -->
+                        </section>
+
+                        <section id="sec2">
+                            <p>안녕하세요 널담입니다.
+                                저희는 Suggest the better라는 슬로건 아래,
+                                더 나은 답을 찾고, 더 나은 세상을 만들기 위해 고민하는데요.
+                                그러기 위해서는 여러분과 더 많이, 더 깊게 소통할 수 있는
+                                소통창구인 뉴스레터를 만들어야겠다고 생각했어요!
+                                레터는 더 나은 세상을 전하겠다는 널담의 포부에 따라
+                                베러레터(Bettter Letter)로 정했어요!</p>
+                        </section>
+                    </div>
+
+                    <div id="back">
+                        <form>
+                            <div class="form_one">
+                                <h3>Bettr Letter 구독하기</h3>
+                            </div>
+                            <div class="form_two">
+                                <p>널담의 Better Letter가 궁금하시다면 구독을 해주세요</p>
+                                <p>달에 한 번 다양한 콘텐츠로 찾아뵙겠습니다!</p>
+                            </div>
+                            <div class="form_three">
+                                <h5>이메일 입력하기</h5>
+                                <input type="email" name="email" placeholder="이메일을 입력하세요" class="in1">
+                            </div>
+                            <div class="form_four">
+                                <h5>이름 또는 닉네임 입력하기</h5>
+                                <input type="text" name="name" placeholder="이름 또는 닉네임을 입력해주세요" class="in1">
+                            </div>
+                            <div class="form_five">
+                                <input type="checkbox" name="checkbox" id="agree">
+                                <label for="agree">(필수)<span>개인정보 수집 및 이용</span>에 동의합니다.</label><br> 
+                            </div>
+                            <div class="form_six">
+                                <input type="checkbox" name="checkbox" id="agree1"> 
+                                <label for="agree1">(필수)<span>광고성 정보 수신</span>에 동의합니다.</label><br>
+                            </div>
+                            <button type="submit">구독하기</button>
+                        </form>
+                    </div>
+            </div>
+        </main><!--main-->
+  
+
+        <footer>
+            <div class="inner">
+                <div id="bottom1">
+                    <a href="#">회사소개｜</a>
+                    <a href="#">이용약관｜</a>
+                    <a href="#">개인정보처리방침｜</a>
+                    <a href="#">이용안내</a>
+                </div>
+                <div class="btm1">
+                <div id="bottom2">
+                    <div id="bottom2_1" class="hi1">
+                        <h3>고객센터</h3>
+                        <p>1533-7941<br>
+                            평일 10:00 ~ 17:00<br>
+                            점심 12:00 ~ 13:00
+                        </p>
+                    </div>
+                    <div id="bottom2_2" class="hi1">
+                        <h3>계좌정보</h3>
+                        <p>하나은행 345 910023<br>
+                           55405<br>
+                           예금주 : 조인앤조인
+                        </p>
+                    </div>
+                    <div id="bottom2_3" class="hi1">
+                        <h3>널담채널</h3>
+                            <a href="#"><img src="images/youtube.png" alt=""></a>
+                            <a href="#"><img src="images/instagram.png" alt=""></a>
+                            <a href="#"><img src="images/kakao.png" alt=""></a>
+                        </p>
+                    </div>
+                </div>
+                <div id="bottom3">
+                    <div id="bottom3_1" class="hi1">
+                        <h3>대표자</h3>
+                        <p>진해수</p>
+                    </div>
+                    <div id="bottom3_2" class="hi1">
+                        <h3>서울본사</h3>
+                        <p>서울 구로구 디지털로 34길 55<br>
+                            코오롱싸이언스밸리2차 1117호
+                        </p>
+                    </div>
+                    <div id="bottom3_3" class="hi1">
+                        <h3>안산공장</h3>
+                        <p>경기도 안산시 상록구 사동 선진로 49</p>
+                    </div>
+                    <div id="bottom3_4" class="hi1">
+                        <h3>전화번호</h3>
+                        <p>1533-7941</p>
+                    </div>
+                    <div id="bottom3_5" class="hi1">
+                        <h3>이메일</h3>
+                        <p>joinandjoin2017@gmail.com</p>
+                    </div>
+                </div>
+                <div id="bottom4">
+                    <div id="bottom4_1" class="hi1">
+                        <h3>주식회사</h3>
+                        <p>조인앤조인</p>
+                    </div>
+                    <div id="bottom4_2" class="hi1">
+                        <h3>사업자등록번호</h3>
+                        <p>503-87-01038<a href="#">[사업자 정보확인]</a></p>
+                    </div>
+                    <div id="bottom4_3" class="hi1">
+                        <h3>통신판매업신고</h3>
+                        <p>제 2018-경기안산-0150호</p>
+                    </div>
+                    <div id="bottom4_4">
+                        <p>Copylight © 2019 joinandjoin All rights reserved.<br>
+                            Hosting by 카페24(주) Design by GOODYMALL</p>
+                    </div>
+                </div>
+                </div>
+                <div id="bottom5">
+                    <div id="bottom5_1">
+                        <p>※ 모든 제작물의 저작권은 당사에 있으며, 무단 복제나 도용은 저작권법(97조 5항)에 의해 금지되어 있습니다. 이를 위반시 처벌 받을 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+</body>
+</html>
